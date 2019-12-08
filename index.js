@@ -13,7 +13,7 @@ class Formatter {
     let words = s.split(" ")
     words.forEach(word=>{
       if(!ex.includes(word))
-      word = capitalize(word)
+      word = this.capitalize(word)
     })
     return words.join( " " );
   }
