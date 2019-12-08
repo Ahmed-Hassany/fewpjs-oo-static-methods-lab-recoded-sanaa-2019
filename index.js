@@ -8,8 +8,8 @@ class Formatter {
     return s.replace(/[^0-9a-zA-Z -']/gi, '')
   }
   
-  static titleize(){
+  static titleize(s){
     let ex=["the", "a", "an", "but", "of", "and", "for", "at", "by", "and" "from"]
-    
+    let words = s.split(" ")
   }
 }
