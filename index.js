@@ -11,9 +11,11 @@ class Formatter {
   static titleize(s){
     let ex=["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"]
     let words = s.split(" ")
-    words.forEach(word=>{
+    words.forEach((word,index)=>{
+      if(index==0)
+      word = Formatter.capitalize(word)
       if(!ex.includes(word))
-      return Formatter.capitalize(word)
+      word = Formatter.capitalize(word)
     })
     return words.join( " " );
   }
