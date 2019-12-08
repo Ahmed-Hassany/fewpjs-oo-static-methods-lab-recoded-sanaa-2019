@@ -4,8 +4,8 @@ class Formatter {
   static capitalize(s){
     return s.charAt(0).toUpperCase()+s.slice(1)
   }
-  static sanitize(){
-    
+  static sanitize(s){
+    return s.replace(/[^0-9a-z]/gi, '')
   }
   
   static titleize(){
