@@ -14,7 +14,7 @@ class Formatter {
     words.forEach((word,index)=>{
       if(index==0)
       word = Formatter.capitalize(word)
-      if(!ex.includes(word))
+      else if(!ex.includes(word))
       word = Formatter.capitalize(word)
     })
     return words.join( " " );
