@@ -9,6 +9,7 @@ class Formatter {
   }
   
   static titleize(){
+    let ex=["the", "a", "an", "but", "of", "and", "for", "at", "by", "and" "from"]
     
   }
 }
