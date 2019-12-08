@@ -12,7 +12,8 @@ class Formatter {
     let ex=["the", "a", "an", "but", "of", "and", "for", "at", "by", "from"]
     let words = s.split(" ")
     words.forEach(word=>{
-      
+      if(!ex.includes(word))
+      word = capitalize(word)
     })
   }
 }
