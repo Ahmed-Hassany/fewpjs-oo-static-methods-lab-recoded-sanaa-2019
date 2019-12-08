@@ -9,7 +9,7 @@ class Formatter {
   }
   
   static titleize(s){
-    let ex=["the", "a", "an", "but", "of", "and", "for", "at", "by", "and" "from"]
+    let ex=["the", "a", "an", "but", "of", "and", "for", "at", "by", "and", "from"]
     let words = s.split(" ")
     words.forEach(word=>{
       
