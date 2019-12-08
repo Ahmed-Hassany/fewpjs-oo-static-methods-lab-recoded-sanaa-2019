@@ -1,8 +1,8 @@
 class Formatter {
   //add static methods here
   
-  static capitalize(){
-    
+  static capitalize(s){
+    let [a,b]
   }
   static sanitize(){
     
