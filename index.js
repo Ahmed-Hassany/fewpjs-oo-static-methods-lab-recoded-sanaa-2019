@@ -15,6 +15,6 @@ class Formatter {
       if(!ex.includes(word))
       word = capitalize(word)
     })
-    
+    return words.join( " " );
   }
 }
